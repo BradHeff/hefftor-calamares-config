@@ -51,8 +51,8 @@
     - nvidia-lts
     - nvidia-settings
     - nvidia-utils
-- name: "Linux-zen kernel without any nvidia"
-  description: "Installs only the linux-zen kernel"
+- name: "Nvidia with Linux-zen kernel"
+  description: "Installs nvidia and linux-zen kernel"
   critical: false
   hidden: false
   selected: false
